@@ -1,0 +1,80 @@
+//
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: pink;
+}
+
+.navbar {
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  .navbar-brand h3 {
+    font-weight: 100;
+  }
+  .nav-item {
+    font-size: 1.4rem;
+  }
+  .nav-link:hover {
+    transition: border 0.5s;
+    border-bottom: 1px solid white;
+  }
+}
+
+#showcase {
+  background: url(/images/soapHero2.png) center center / cover no-repeat;
+
+  min-height: 900px;
+  max-height: 900px;
+  position: relative;
+  #header {
+    z-index: 2;
+    margin-top: 6rem;
+  }
+  #overlay {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  h1 {
+    font-family: "Questrial", sans-serif;
+    line-height: 1;
+  }
+  #product {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #1f1f1f;
+    .nav-link:hover {
+      border-bottom: none;
+    }
+  }
+  #showcase {
+    background-position: right;
+    min-height: 400px;
+    padding-left: 30px;
+    h1 {
+      font-size: 4rem;
+    }
+    #overlay {
+      background: rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #showcase {
+    height: 1500px;
+  }
+}
