@@ -18,10 +18,15 @@ body {
   .nav-item {
     font-size: 1.4rem;
   }
+
   .nav-link:hover {
     transition: border 0.5s;
     border-bottom: 1px solid white;
   }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 #showcase {
