@@ -7823,8 +7823,8 @@ body {
   color: rgba(255, 255, 255, 0.9); }
 
 #showcase {
-  background: url(/images/soapHero2.png) center center/cover no-repeat;
-  min-height: 900px;
+  background: url(/images/soaphero2.png) center center/cover no-repeat;
+  min-height: 100vh;
   max-height: 900px;
   position: relative; }
   #showcase #header {
@@ -7859,8 +7859,5 @@ body {
       font-size: 4rem; }
     #showcase #overlay {
       background: rgba(0, 0, 0, 0.2); } }
-@media only screen and (min-width: 1200px) {
-  #showcase {
-    height: 1500px; } }
 
 /*# sourceMappingURL=app.css.map */

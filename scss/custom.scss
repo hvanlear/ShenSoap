@@ -30,9 +30,9 @@ body {
 }
 
 #showcase {
-  background: url(/images/soapHero2.png) center center / cover no-repeat;
+  background: url(/images/soaphero2.png) center center / cover no-repeat;
 
-  min-height: 900px;
+  min-height: 100vh;
   max-height: 900px;
   position: relative;
   #header {
@@ -75,11 +75,5 @@ body {
     #overlay {
       background: rgba(0, 0, 0, 0.2);
     }
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  #showcase {
-    height: 1500px;
   }
 }
