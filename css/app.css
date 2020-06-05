@@ -7852,9 +7852,11 @@ body {
       border-bottom: none; }
 
   #showcase {
-    background-position: right;
-    min-height: 400px;
-    padding-left: 30px; }
+    /* Center and scale the image nicely */
+    background: url(../images/shs.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 100%; }
     #showcase h1 {
       font-size: 4rem; }
     #showcase #overlay {
