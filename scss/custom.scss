@@ -64,7 +64,8 @@ button {
   }
 }
 
-#about {
+#about,
+#products {
   margin: 4rem 0 2rem 0;
   font-family: "Pacifico", cursive;
   font-size: 3rem;
@@ -73,6 +74,10 @@ button {
 
 #intro {
   margin-bottom: 3rem;
+}
+
+.modal-content {
+  width: 700px;
 }
 
 @media (max-width: 768px) {
@@ -95,7 +100,7 @@ button {
     }
 
     #overlay {
-      background: rgba(0, 0, 0, 0.2);
+      background: rgba(0, 0, 0, 0.1);
     }
   }
 }
