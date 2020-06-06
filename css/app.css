@@ -7801,8 +7801,8 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 body {
-  font-family: "Raleway", sans-serif;
-  background: pink; }
+  font-family: "Arimo", sans-serif;
+  letter-spacing: 1px; }
 
 .navbar {
   font-weight: 100;
@@ -7824,6 +7824,7 @@ body {
 
 #showcase {
   background: url(../images/soaphero2.png) center center/cover no-repeat;
+  padding: 40px;
   min-height: 100vh;
   max-height: 900px;
   position: relative; }
@@ -7839,15 +7840,20 @@ body {
     height: 100%;
     z-index: 1; }
   #showcase h1 {
-    font-family: "Questrial", sans-serif;
+    padding: 20px;
+    font-family: "Pacifico", cursive;
     line-height: 1; }
   #showcase #product {
     font-size: 1.5rem;
     border-radius: 2rem; }
 
+#about {
+  margin-top: 20px;
+  font-family: "Pacifico", cursive; }
+
 @media (max-width: 768px) {
   .navbar {
-    background: #1f1f1f; }
+    background: rgba(70, 70, 70, 0.8); }
     .navbar .nav-link:hover {
       border-bottom: none; }
 
