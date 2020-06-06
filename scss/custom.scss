@@ -30,6 +30,10 @@ body {
   color: rgba(255, 255, 255, 0.9);
 }
 
+button {
+  box-shadow: 2px 10px 7px -6px rgba(0, 0, 0, 0.75);
+}
+
 #showcase {
   background: url(../images/soaphero2.png) center center / cover no-repeat;
   padding: 40px;
@@ -80,7 +84,11 @@ body {
     height: 100%;
 
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
+      padding: 25px 0 25px 0;
+    }
+    .title-container {
+      margin-right: 200px;
     }
     #overlay {
       background: rgba(0, 0, 0, 0.2);
