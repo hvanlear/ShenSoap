@@ -7879,6 +7879,12 @@ button {
       font-size: 4rem;
       padding: 0; }
     #showcase #overlay {
-      background: rgba(0, 0, 0, 0.1); } }
+      background: rgba(0, 0, 0, 0.1); }
+
+  #imagepreview {
+    width: 100%; }
+
+  .modal-content {
+    width: auto; } }
 
 /*# sourceMappingURL=app.css.map */
