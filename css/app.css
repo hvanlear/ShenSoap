@@ -7863,6 +7863,9 @@ button {
 .modal-content {
   width: 700px; }
 
+#imagepreview {
+  width: 100%; }
+
 @media (max-width: 768px) {
   .navbar {
     background: rgba(70, 70, 70, 0.8); }
@@ -7880,9 +7883,6 @@ button {
       padding: 0; }
     #showcase #overlay {
       background: rgba(0, 0, 0, 0.1); }
-
-  #imagepreview {
-    width: 100%; }
 
   .modal-content {
     width: auto; } }

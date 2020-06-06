@@ -4,6 +4,7 @@ const title = document.querySelectorAll("h5#exampleModalLabel.modal-title");
 
 imgs.forEach((img) =>
   img.addEventListener("click", (e) => {
+    console.log(e.target);
     let imgTitle = e.target.alt;
     e.preventDefault();
 
