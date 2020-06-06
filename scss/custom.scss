@@ -65,8 +65,14 @@ button {
 }
 
 #about {
-  margin-top: 20px;
+  margin: 4rem 0 2rem 0;
   font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+#intro {
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 768px) {
